@@ -9,4 +9,14 @@ body{
 font-size: 40px; 
 width: 100%; 
  min-height: 100hv; 
+  
+}
+[class^="box-"]{
+    background-color: skyblue;
+    display: grid;
+    place-items:center;  
+}
+.container{
+    display: grid;
+    gap: 20px;
 }
